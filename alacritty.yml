@@ -23,16 +23,16 @@ window:
   #  lines: 55
   # 16px
   dimensions:
-    columns: 160  
+    columns: 157 
     lines: 50     
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  #position:
-  #  x: 0
-  #  y: 0
+  position:
+    x: 118
+    y: 60
 
   # Window padding (changes require restart)
   #
@@ -267,13 +267,13 @@ colors:
   # Normal colors
   normal:
     black:   '0x222222'
-    red:     '0xBF616A'
+    red:     '0xD05A6E'
     green:   '0x00CB24'
-    yellow:  '0xDBBB7B' #'0xFFA600'
+    yellow:  '0xF7C242' #'0xFFA600'
     blue:    '0x0095FF'
-    magenta: '0xB48EAD' #'0xEF338E'
+    magenta: '0xAA4699' #'0xEF338E'
     cyan:    '0x11858F'
-    white:   '0xEEEEEE'
+    white:   '0xD8DEE9'
 
   #normal:
     #black:   '0x2E3440'
@@ -288,11 +288,11 @@ colors:
   # Bright colors
   bright:
     black:   '0x4C566A'
-    red:     '0xCF616A'
+    red:     '0xF75455'
     green:   '0xC3EE9C'
-    yellow:  '0xEBCB8B'
+    yellow:  '0xF7D94C'
     blue:    '0x7EA1CC'
-    magenta: '0xD4AECD'
+    magenta: '0xC1693C'
     cyan:    '0x33A5AF'
     white:   '0xECEFF4'
 
