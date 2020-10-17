@@ -234,8 +234,10 @@ colors:
     ##background: '0x2E3440'
     ##foreground: '0xD8DEE9'
     ## black pearl
-    background: '0x001B22'
+    ##background: '0x001B22'
     foreground: '0xCADEDF'
+    ## black currant
+    background: '0x08021C'
 
     # Bright and dim foreground colors
     #
