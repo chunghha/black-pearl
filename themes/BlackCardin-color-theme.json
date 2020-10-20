@@ -64,6 +64,8 @@
 		"tab.inactiveForeground": "#bec23f",
 		"tab.unfocusedActiveForeground": "#eceff4",
 		"tab.unfocusedInactiveForeground": "#bec23f",
+		"textLink.foreground": "#559193",
+    	"textLink.activeForeground": "#b2dfff",
 		"editor.background": "#192821",
 		"editor.foreground": "#eceff4",
 		"editorLineNumber.foreground": "#877f6c",
@@ -169,7 +171,7 @@
 		"terminal.ansiBrightYellow": "#f7d94c",
 		"terminal.ansiBlue": "#0095ff",
 		"terminal.ansiBrightBlue": "#7ea1cc",
-		"terminal.ansiMagenta": "#6a4c9c",
+		"terminal.ansiMagenta": "#8b81c3",
 		"terminal.ansiBrightMagenta": "#b35c37",
 		"terminal.ansiCyan": "#11858f",
 		"terminal.ansiBrightCyan": "#33a5af",
@@ -196,7 +198,7 @@
 		"name": "Colors",
 		"scope": ["constant.other.color"],
 		"settings": {
-		  "foreground": "#ffffff"
+		  "foreground": "#d8dee9"
 		}
 	  },
 	  {
@@ -254,7 +256,7 @@
 		  "keyword.other.special-method"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -382,7 +384,7 @@
 		  "variable.function.constructor"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -407,14 +409,14 @@
 		"name": "CSS Classes",
 		"scope": ["entity.other.attribute-name.class"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
 		"name": "CSS ID's",
 		"scope": ["source.sass keyword.control"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -456,7 +458,8 @@
 		"name": "URL",
 		"scope": ["*url*", "*link*", "*uri*"],
 		"settings": {
-		  "fontStyle": "underline"
+		  "fontStyle": "underline",
+		  "foreground": "#9dd2e8"
 		}
 	  },
 	  {
@@ -531,7 +534,7 @@
 		  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -655,7 +658,7 @@
 		"name": "Markdown - Link",
 		"scope": ["string.other.link.title.markdown"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -808,14 +811,15 @@
 		"name": "Dart String",
 		"scope": ["string.interpolated.single.dart", "string.interpolated.double.dart"],
 		"settings": {
-		  "foreground": "#ff5874"
+		  "foreground": "#caad5f"
 		}
 	  },
 	  {
 		"name": "Dart Class",
 		"scope": "support.class.dart",
 		"settings": {
-		  "foreground": "#EEFFFF"
+		  "foreground": "#11858f",
+		  "fontStyle": "italic"
 		}
 	  }
 	]
