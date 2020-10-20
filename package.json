@@ -2,7 +2,7 @@
     "name": "black-pearl",
     "displayName": "black-pearl-color-theme",
     "description": "Black Pearl Color Theme for VSCode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.49.0"
     },
@@ -20,6 +20,11 @@
                 "label": "BlackCurrant",
                 "uiTheme": "vs-dark",
                 "path": "./themes/BlackCurrant-color-theme.json"
+            },
+            {
+                "label": "BlackCardin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/BlackCardin-color-theme.json"
             }
         ]
     }
