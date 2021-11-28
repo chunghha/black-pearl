@@ -64,6 +64,8 @@
 		"tab.inactiveForeground": "#bec23f",
 		"tab.unfocusedActiveForeground": "#eceff4",
 		"tab.unfocusedInactiveForeground": "#bec23f",
+		"textLink.foreground": "#559193",
+    	"textLink.activeForeground": "#b2dfff",
 		"editor.background": "#08021c",
 		"editor.foreground": "#eceff4",
 		"editorLineNumber.foreground": "#877f6c",
@@ -161,7 +163,7 @@
 		"pickerGroup.foreground": "#211e55",
 		"terminal.ansiBlack": "#222222",
 		"terminal.ansiBrightBlack": "#4c566a",
-		"terminal.ansiRed": "#d05a6e",
+		"terminal.ansiRed": "#e05a6e",
 		"terminal.ansiBrightRed": "#f75455",
 		"terminal.ansiGreen": "#00cb24",
 		"terminal.ansiBrightGreen": "#c3ee9c",
@@ -169,8 +171,8 @@
 		"terminal.ansiBrightYellow": "#f7d94c",
 		"terminal.ansiBlue": "#0095ff",
 		"terminal.ansiBrightBlue": "#7ea1cc",
-		"terminal.ansiMagenta": "#a36336",
-		"terminal.ansiBrightMagenta": "#ffbab4",
+		"terminal.ansiMagenta": "#9b60c2",
+		"terminal.ansiBrightMagenta": "#baa3ee",
 		"terminal.ansiCyan": "#11858f",
 		"terminal.ansiBrightCyan": "#33a5af",
 		"terminal.ansiWhite": "#d8dee9",
@@ -196,7 +198,7 @@
 		"name": "Colors",
 		"scope": ["constant.other.color"],
 		"settings": {
-		  "foreground": "#ffffff"
+		  "foreground": "#d8dee9"
 		}
 	  },
 	  {
@@ -254,7 +256,7 @@
 		  "keyword.other.special-method"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -382,7 +384,7 @@
 		  "variable.function.constructor"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -407,14 +409,14 @@
 		"name": "CSS Classes",
 		"scope": ["entity.other.attribute-name.class"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
 		"name": "CSS ID's",
 		"scope": ["source.sass keyword.control"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -531,7 +533,7 @@
 		  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -655,7 +657,7 @@
 		"name": "Markdown - Link",
 		"scope": ["string.other.link.title.markdown"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -808,14 +810,15 @@
 		"name": "Dart String",
 		"scope": ["string.interpolated.single.dart", "string.interpolated.double.dart"],
 		"settings": {
-		  "foreground": "#ff5874"
+		  "foreground": "#caad5f"
 		}
 	  },
 	  {
 		"name": "Dart Class",
 		"scope": "support.class.dart",
 		"settings": {
-		  "foreground": "#EEFFFF"
+		  "foreground": "#11858F",
+		  "fontStyle": "italic"
 		}
 	  }
 	]

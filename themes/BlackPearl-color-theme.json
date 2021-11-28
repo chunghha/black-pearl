@@ -64,6 +64,8 @@
 		"tab.inactiveForeground": "#22959f",
 		"tab.unfocusedActiveForeground": "#eceff4",
 		"tab.unfocusedInactiveForeground": "#22959f",
+		"textLink.foreground": "#559193",
+    	"textLink.activeForeground": "#b2dfff",
 		"editor.background": "#001b22",
 		"editor.foreground": "#eceff4",
 		"editorLineNumber.foreground": "#1d656f",
@@ -196,7 +198,7 @@
 		"name": "Colors",
 		"scope": ["constant.other.color"],
 		"settings": {
-		  "foreground": "#ffffff"
+		  "foreground": "#d8dee9"
 		}
 	  },
 	  {
@@ -254,21 +256,21 @@
 		  "keyword.other.special-method"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
 		"name": "Block Level Variables",
 		"scope": ["meta.block variable.other"],
 		"settings": {
-		  "foreground": "#994639 "
+		  "foreground": "#994639"
 		}
 	  },
 	  {
 		"name": "Other Variable, String Link",
 		"scope": ["support.other.variable", "string.other.link"],
 		"settings": {
-		  "foreground": "#994639 "
+		  "foreground": "#994639"
 		}
 	  },
 	  {
@@ -382,7 +384,7 @@
 		  "variable.function.constructor"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -407,14 +409,14 @@
 		"name": "CSS Classes",
 		"scope": ["entity.other.attribute-name.class"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
 		"name": "CSS ID's",
 		"scope": ["source.sass keyword.control"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -504,7 +506,7 @@
 		  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		],
 		"settings": {
-		  "foreground": "#994639 "
+		  "foreground": "#994639"
 		}
 	  },
 	  {
@@ -531,7 +533,7 @@
 		  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -603,7 +605,7 @@
 		"scope": ["markup.italic"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#994639 "
+		  "foreground": "#994639"
 		}
 	  },
 	  {
@@ -611,7 +613,7 @@
 		"scope": ["markup.bold", "markup.bold string"],
 		"settings": {
 		  "fontStyle": "bold",
-		  "foreground": "#994639 "
+		  "foreground": "#994639" 
 		}
 	  },
 	  {
@@ -626,7 +628,7 @@
 		],
 		"settings": {
 		  "fontStyle": "bold",
-		  "foreground": "#994639 "
+		  "foreground": "#994639"
 		}
 	  },
 	  {
@@ -655,7 +657,7 @@
 		"name": "Markdown - Link",
 		"scope": ["string.other.link.title.markdown"],
 		"settings": {
-		  "foreground": "#cadedf"
+		  "foreground": "#9adedf"
 		}
 	  },
 	  {
@@ -808,14 +810,15 @@
 		"name": "Dart String",
 		"scope": ["string.interpolated.single.dart", "string.interpolated.double.dart"],
 		"settings": {
-		  "foreground": "#ff5874"
+		  "foreground": "#caad5f"
 		}
 	  },
 	  {
 		"name": "Dart Class",
 		"scope": "support.class.dart",
 		"settings": {
-		  "foreground": "#EEFFFF"
+		  "foreground": "#11858F",
+		  "fontStyle": "italic"
 		}
 	  }
 	]

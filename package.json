@@ -1,31 +1,36 @@
 {
-    "name": "black-pearl",
-    "displayName": "black-pearl-color-theme",
-    "description": "Black Pearl Color Theme for VSCode",
-    "version": "0.0.3",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "BlackPearl",
-                "uiTheme": "vs-dark",
-                "path": "./themes/BlackPearl-color-theme.json"
-            },
-            {
-                "label": "BlackCurrant",
-                "uiTheme": "vs-dark",
-                "path": "./themes/BlackCurrant-color-theme.json"
-            },
-            {
-                "label": "BlackCardin",
-                "uiTheme": "vs-dark",
-                "path": "./themes/BlackCardin-color-theme.json"
-            }
-        ]
-    }
+  "name": "black-pearl",
+  "displayName": "black-pearl-color-theme",
+  "description": "Black Pearl Color Theme for VSCode",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AurbanoEstuary",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AurbanoEstuary-color-theme.json"
+      },
+      {
+        "label": "BlackPearl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BlackPearl-color-theme.json"
+      },
+      {
+        "label": "BlackCurrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BlackCurrant-color-theme.json"
+      },
+      {
+        "label": "BlackCardin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BlackCardin-color-theme.json"
+      }
+    ]
+  }
 }

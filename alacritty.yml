@@ -31,7 +31,7 @@ window:
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   position:
-    x: 118
+    x: 132
     y: 60
 
   # Window padding (changes require restart)
@@ -235,9 +235,16 @@ colors:
     ##foreground: '0xD8DEE9'
     ## black pearl
     ##background: '0x001B22'
-    foreground: '0xCADEDF'
+    ##foreground: '0xCADEDF'
     ## black currant
-    background: '0x08021C'
+    ##foreground: '0xCADEDF'
+    ##background: '0x08021C'
+    ## black cardin
+    foreground: '0xDAEEEF'
+    background: '0x192821'
+    ## white winter
+    ##foreground: '0x1A2E2F'
+    ##background: '0xA9CBF0'
 
     # Bright and dim foreground colors
     #
@@ -273,7 +280,7 @@ colors:
     green:   '0x00CB24'
     yellow:  '0xF7C242' #'0xFFA600'
     blue:    '0x0095FF'
-    magenta: '0x6A4C9C' #'0xEF338E'
+    magenta: '0x8B81C3' #'0xEF338E'
     cyan:    '0x11858F'
     white:   '0xD8DEE9'
 
@@ -608,8 +615,8 @@ key_bindings:
   - { key: Insert,   mods: Shift,         action: PasteSelection   }
   - { key: Key0,     mods: Control,       action: ResetFontSize    }
   - { key: Equals,   mods: Control,       action: IncreaseFontSize }
-  - { key: Add,      mods: Control,       action: IncreaseFontSize }
-  - { key: Subtract, mods: Control,       action: DecreaseFontSize }
+  - { key: Plus,      mods: Control,       action: IncreaseFontSize }
+  - { key: Underline, mods: Control,       action: DecreaseFontSize }
   - { key: Minus,    mods: Control,       action: DecreaseFontSize }
 
   - { key: Paste,                    action: Paste                            }
