@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "AurbanoEstuary",
+        "label": "BlackTarawera",
         "uiTheme": "vs-dark",
-        "path": "./themes/AurbanoEstuary-color-theme.json"
+        "path": "./themes/BlackTarawera-color-theme.json"
       },
       {
         "label": "BlackPearl",
